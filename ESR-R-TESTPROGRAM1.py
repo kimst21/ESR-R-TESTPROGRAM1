@@ -1,9 +1,5 @@
 """
-Raspberry Pi Pico2 W Component Test Program
-Tests all connected components and displays results on OLED
-Use button to cycle through pages
-
-이 프로그램은 Raspberry Pi Pico2 W에 연결된 모든 하드웨어 컴포넌트의
+이 프로그램은 ESR-E개발보드에 연결된 모든 하드웨어 컴포넌트의
 정상 작동을 확인하고 OLED 디스플레이에 결과를 표시하는 종합 테스트 시스템입니다.
 """
 
@@ -779,4 +775,5 @@ if __name__ == "__main__":
             
         except:
             # 정리 작업 중 오류 발생해도 무시 (프로그램이 이미 종료 중이므로)
+
             pass
